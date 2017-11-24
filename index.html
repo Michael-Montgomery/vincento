@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vincento Merritt Photography</title>
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Native stylesheet reference-->
+    <link rel="stylesheet" href="public/css/style.css">
+    <!--Header Stylesheet reference-->
+    <link rel="stylesheet" href="public/css/header.css">
+    <!--Footer Stylesheet reference-->
+    <link rel="stylesheet" href="public/css/footer.css">
+    <!--Google Fonts CDN-->
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise" rel="stylesheet">
+    <!--Font Awesome CDN-->
+    <script src="https://use.fontawesome.com/2c3779d488.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body ng-app="sample" ng-controller="mainController">
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 col-xs-12 header">
+            <header>
+                <nav>
+                    <a href="#/">Vincento Merritt</a>
+                    <a href="#/about">About</a>
+                    <a href="#">Link 2</a>
+                    <a href="#/contact">Contact</a>
+                </nav>
+            </header>
+        </div>
+    </div>
+</div>
+
+
+
+<ng-view></ng-view>
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 col-xs-12 footer">
+
+        </div>
+    </div>
+</div>
+
+
+
+<!--JQuery CDN-->
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<!--Angular CDN-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<!--Angular routing CDN-->
+<script type="text/javascript" src="https://code.angularjs.org/1.5.8/angular-route.min.js"></script>
+
+<!--Angular Application Injection-->
+<script type="text/javascript" src="public/js/index.js"></script>
+
+
+<!--Injection of Angular modules-->
+
+<script type="text/javascript" src="public/js/welcome.js"></script>
+<script type="text/javascript" src="public/js/weddings-gallery.js"></script>
+
+
+
+
+
+
+
+<!--Injection of Angular Services-->
+
+
+</body>
+</html>

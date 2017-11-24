@@ -1,0 +1,33 @@
+.header {
+    height: 12vh;
+}
+
+
+.header header nav {
+    text-align: center;
+    line-height: 12vh;
+}
+
+
+.header header nav a {
+    font-size: 3.5em;
+    font-family: 'Poiret One', cursive;
+    color: black;
+    text-decoration: none;
+    padding: 0 3vw;
+    transition: all .5s;
+}
+
+.header header nav a:first-child {
+    float: left;
+}
+
+.header header nav a:not(:first-child) {
+    float: right;
+}
+
+
+
+.header  header nav a:hover {
+    text-decoration: none;
+}

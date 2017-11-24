@@ -1,0 +1,50 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 weddings-wrapper-one">
+            <div id="weddings-picture-wrapper">
+
+            </div>
+            <progress id="weddings-progress" value="0" max="100">
+            </progress>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 weddings-wrapper-two">
+            <h2>Vincento Merrit Wedding Photography</h2><br>
+            <p>
+                We, at Vincento Merritt Photography understand on an intimate level what it means to capture the ordinary,
+                extraordinarily. Your wedding day is easily one of the most special days of your life and long after your
+                guests leave, your wedding cake is devoured and your honeymoon concludes, you will be left with three things:
+                a wedding dress, your rings and the images of your ceremony and reception. It's no suprise that these
+                three items are regarded by many as the most important tangible items of the occasion.
+
+                There is no other bond quite like the one you and your significant other share and to that end, our team
+                will work closely with you to ensure that the pictures we capture are as expressive and unique
+                as your union. <a hef="#">Schedule your free consultation</a> now and let's make the best day of your life
+                truly unforgettable.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 weddings-wrapper-three">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Base Price</th>
+                </tr>
+                <tr ng-repeat="pack in packages">
+                    <td>{{pack.name}}</td>
+                    <td>{{pack.description}}</td>
+                    <td>{{pack.basePrice | currency}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

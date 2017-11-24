@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+}
+
+.bi-div-wrapper {
+    height: 76vh;
+    padding: 0;
+}
+
+#casual-wrapper {
+    width:50%;
+    height: 100%;
+    border: 1px solid;
+    display: inline-block;
+    border-right: none;
+    border-left: none;
+    background-image: url("https://i.imgur.com/FzviBhk.jpg");
+    background-size: cover;
+    transition: all .8s;
+}
+
+#wedding-wrapper {
+    width:50%;
+    height: 100%;
+    border: 1px solid;
+    border-right: none;
+    display: inline-block;
+    float: right;
+    background-image: url("https://i.imgur.com/hbWV7pg.jpg");
+    background-size: cover;
+    transition: all .8s;
+}
+
+.weddings-wrapper-one {
+    height: 80vh;
+    padding: 0 3vw;
+}
+
+#weddings-picture-wrapper {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://i.imgur.com/vy2cTmV.jpg");
+    background-size: cover;
+    transition: all .4s;
+}
+
+#weddings-progress {
+    width: 100%;
+}
+
+.weddings-wrapper-two {
+    padding: 50px 100px;
+}
+
+.weddings-wrapper-two h2 {
+    text-align: center;
+    font-size: 7em;
+    font-family: 'Monsieur La Doulaise', cursive;
+}
+
+.weddings-wrapper-two p {
+    font-size: 3em;
+}
+
+.welcome-wrapper-three table {
+    border: 1px solid;
+}
+
