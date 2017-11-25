@@ -1,6 +1,11 @@
 var app = angular.module('sample.weddingGallery', []);
 
 app.controller('weddingGalleryController', function($scope) {
+
+    $('.header').addClass('navbar-fixed-top');
+
+
+
     var bgUrls = [
         'https://i.imgur.com/vy2cTmV.jpg',
         'https://i.imgur.com/QVgFjbY.jpg',
@@ -43,7 +48,7 @@ app.controller('weddingGalleryController', function($scope) {
 
     $scope.packages = [
         {
-            name: 'package 1',
+            name: 'The Windsor',
             description: 'description of package',
             basePrice: 1899.00
         },

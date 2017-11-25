@@ -32,6 +32,21 @@
 
 <div class="container-fluid">
     <div class="row">
+        <div class="col-md-12 weddings-wrapper-four">
+            <p id="testimony">
+                We are so glad we chose Vincento Merritt Photography. They met with my husband and I several times to
+                ensure we knew what to expect from them and they captured amazing shots that our guests and family
+                can't stop talking about to this day.
+            </p><br>
+            <p id="author">Mandy Moore</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="row">
         <div class="col-md-12 weddings-wrapper-three">
             <table>
                 <tr>
@@ -45,6 +60,35 @@
                     <td>{{pack.basePrice | currency}}</td>
                 </tr>
             </table>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 weddings-wrapper-five">
+            <form>
+                <input type="text" class="half" placeholder="First Name">
+                <input type="text" class="half" placeholder="Last Name"><br>
+                <input type="email" class="full" placeholder="Email"><br>
+                <input type="text" class="full" placeholder="When is the big day?"><br>
+                <select class="full">
+                    <option>Which package are you most interested in?</option>
+                    <option ng-repeat="pack in packages" value="{{pack.val}}">{{pack.name}}</option>
+                    <option value="undecided">I/We haven't decided yet.</option>
+                </select><br>
+                <textarea class="full" placeholder="Please enter any other preliminary information that you would like me to know about your event.">
+
+                </textarea><br>
+                <button class="full">Submit</button>
+            </form>
+            <ul id="weddings-social">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+            </ul>
         </div>
     </div>
 </div>
