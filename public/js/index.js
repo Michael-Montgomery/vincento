@@ -1,7 +1,8 @@
 var app = angular.module('sample', [
     'ngRoute',
     'sample.welcome',
-    'sample.weddingGallery'
+    'sample.weddingGallery',
+    'sample.casualGallery'
 ]);
 
 app.config(function($routeProvider) {
@@ -42,8 +43,13 @@ app.config(function($routeProvider) {
     });
 
     $routeProvider.when('/wedding-gallery', {
-        templateUrl: 'public/views/templates/weddings-gallery.html',
+        templateUrl: 'public/views/templates/weddings-gallery.tpl.html',
         controller: 'weddingGalleryController'
+    });
+
+    $routeProvider.when('/casual-gallery', {
+        templateUrl: 'public/views/templates/casual-gallery.tpl.html',
+        controller: 'casualGalleryController'
     })
 });
 

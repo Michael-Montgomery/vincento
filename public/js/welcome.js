@@ -28,7 +28,7 @@ app.controller('welcomeController', function($scope, $location) {
     });
 
     $scope.goToCasual = function() {
-        $location.path('/casual');
+        $location.path('/casual-gallery');
     };
 
     $scope.goToWeddings = function() {
