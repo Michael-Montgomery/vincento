@@ -6,13 +6,13 @@ var app = angular.module('sample', [
 ]);
 
 app.config(function($routeProvider) {
-    $routeProvider.when('/', {
-        redirectTo: '/welcome'
-    }).otherwise({
-        redirectTo: '/welcome'
-    });
+    //$routeProvider.when('/', {
+    //    redirectTo: '/welcome'
+    //}).otherwise({
+    //    redirectTo: '/welcome'
+    //});
 
-    $routeProvider.when('/welcome', {
+    $routeProvider.when('/', {
         templateUrl: 'public/views/templates/welcome.tpl.html',
         controller: 'welcomeController'
     });

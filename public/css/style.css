@@ -271,6 +271,24 @@ body {
     padding-bottom: 5vh;
 }
 
+#casual-social-links {
+    text-align: center;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#casual-social-links li {
+    display: inline;
+    font-size: 3em;
+    margin: 0 4vw;
+
+}
+
+#casual-social-links li a {
+    text-decoration: none;
+    color: black;
+}
+
 
 
 
